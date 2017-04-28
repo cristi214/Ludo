@@ -14,7 +14,7 @@ Ludo game
 
   If a pawn advances to a cell that is occupied by another pawn of a different color, it eliminates that pawn ( status 'home' and position -1)
 
-  A pawn changes its status to 'finished' when he gets back home after a complete tour ()  counter > 40.
+  A pawn changes its status to 'finished' when he gets back home after a complete tour (counter > 40).
 
   The player that finishes with all the pawns is the winner.
 
