@@ -12,8 +12,7 @@ module Ludo
     context "#initialize" do
 
       it "initializes the game with a random number of players between 2 and 4" do
-        expect(
-          @game.players.count.between?(2,4)).to be true
+        expect(@game.players.count.between?(2,4)).to be true
       end
     end
 

@@ -93,7 +93,7 @@ module Ludo
     end
 
     def check_winner
-      #check for a winner and changes game status to finished if it find one
+      #check for a winner and changes game status to finished
       if @current_player.has_won?
         puts "#{@current_player.color} has won the game!"
         @game_status = 'finished'

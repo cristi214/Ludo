@@ -18,7 +18,7 @@ module Ludo
 
     context "#start" do
 
-      it "checks if pawn enters game on correct position based on its" do
+      it "checks if pawn enters game on correct position based on its color" do
         SP.each do |color, pos|
           @pawn.start(SP[color])
           expect(@pawn.status).to eq 'in_play'
